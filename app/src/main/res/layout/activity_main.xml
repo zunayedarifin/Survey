@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zunay.survey.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nationality" />
+    <CheckBox
+        android:id="@+id/checkBox_nationality_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bangladesh" />
+    <CheckBox
+        android:id="@+id/checkBox_nationality_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/others" />
+    <EditText
+        android:id="@+id/nationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profession" />
+    <CheckBox
+        android:id="@+id/checkBox_profession_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/medical_oncologist" />
+    <CheckBox
+        android:id="@+id/checkBox_profession_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radiation_oncologist" />
+    <CheckBox
+        android:id="@+id/checkBox_profession_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clinical_oncologist" />
+    <CheckBox
+        android:id="@+id/checkBox_profession_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/general_physician" />
+    <CheckBox
+        android:id="@+id/checkBox_profession_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_graduate_student" />
+    <CheckBox
+        android:id="@+id/checkBox_profession_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/others_please_specify" />
+    <EditText
+        android:id="@+id/professionalism"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clinical_practice" />
+    <CheckBox
+        android:id="@+id/checkBox_clinical_practice_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_years" />
+    <CheckBox
+        android:id="@+id/checkBox_clinical_practice_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_10_years" />
+    <CheckBox
+        android:id="@+id/checkBox_clinical_practice_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_10_20_years" />
+    <CheckBox
+        android:id="@+id/checkBox_clinical_practice_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_20_years" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work_practice" />
+    <CheckBox
+        android:id="@+id/checkBox_work_practice_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_public" />
+    <CheckBox
+        android:id="@+id/checkBox_work_practice_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_private" />
+    <CheckBox
+        android:id="@+id/checkBox_work_practice_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/both" />
+    <CheckBox
+        android:id="@+id/checkBox_work_practice_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other(Please Specify)" />
+    <EditText
+        android:id="@+id/workingIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/percentage" />
+    <CheckBox
+        android:id="@+id/checkBox_persentage_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_20" />
+    <CheckBox
+        android:id="@+id/checkBox_persentage_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_20_30" />
+    <CheckBox
+        android:id="@+id/checkBox_persentage_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lung_cancer_patient" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_cancer_patient_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_lessthan10" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_cancer_patient_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_10to20" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_cancer_patient_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/greaterthan20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/existing_lung_cancer_patient" />
+    <CheckBox
+        android:id="@+id/checkBox_existing_lung_cancer_patient_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_50" />
+    <CheckBox
+        android:id="@+id/checkBox_existing_lung_cancer_patient_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_50to100" />
+    <CheckBox
+        android:id="@+id/checkBox_existing_lung_cancer_patient_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/greaterthan100" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/common_histology" />
+    <CheckBox
+        android:id="@+id/checkBox_common_histology_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/small_cell_lung_cancer" />
+    <CheckBox
+        android:id="@+id/checkBox_common_histology_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/non_small_cell_lung_cancer_nos" />
+    <CheckBox
+        android:id="@+id/checkBox_common_histology_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adenocarcinoma" />
+    <CheckBox
+        android:id="@+id/checkBox_common_histology_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/squamous_cell_carcinoma" />
+    <CheckBox
+        android:id="@+id/checkBox_common_histology_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adenosquamous_cell_carcinoma" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/metastatic_lung_cancer" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_lung_cancer_patient_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_30percentage" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_lung_cancer_patient_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_30_50" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_lung_cancer_patient_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_50percentage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnostic_modality" />
+    <CheckBox
+        android:id="@+id/checkBox_diagnostic_modality_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fnac" />
+    <CheckBox
+        android:id="@+id/checkBox_diagnostic_modality_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fnab" />
+    <CheckBox
+        android:id="@+id/checkBox_diagnostic_modality_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/endo_bronchial_biopsy" />
+    <CheckBox
+        android:id="@+id/checkBox_diagnostic_modality_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/endo_bronchial_lavage" />
+    <CheckBox
+        android:id="@+id/checkBox_diagnostic_modality_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pleural_fluid_cytology" />
+    <CheckBox
+        android:id="@+id/checkBox_diagnostic_modality_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/core_biopsy" />
+    <CheckBox
+        android:id="@+id/checkBox_diagnostic_modality_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/others_please_specify" />
+    <EditText
+        android:id="@+id/diagnostic_modality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lung_mass" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_mass_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/not_needed_fnac_is_sufficient" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_mass_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lack_of_expertise" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_mass_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cost_issue" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_mass_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_s_choice" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_mass_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lack_of_knowledge_about_it_s_importance" />
+    <CheckBox
+        android:id="@+id/checkBox_lung_mass_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/others_please_specify" />
+    <EditText
+        android:id="@+id/lung_mass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/staging_work_up" />
+    <CheckBox
+        android:id="@+id/checkBox_staging_work_up_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yes" />
+    <CheckBox
+        android:id="@+id/checkBox_staging_work_up_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/metastatic_squamous" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_squamous_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paclitaxel_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_squamous_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/docetaxel_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_squamous_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gemcitabine_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_squamous_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vinorelbine_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_squamous_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pemetrexed_platinum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/metastatic_adeno" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_adeno_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paclitaxel_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_adeno_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/docetaxel_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_adeno_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gemcitabine_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_adeno_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vinorelbine_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_adeno_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pemetrexed_platinum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cell_carcinoma" />
+    <CheckBox
+        android:id="@+id/checkBox_cell_carcinoma_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cisplatin_etoposide" />
+    <CheckBox
+        android:id="@+id/checkBox_cell_carcinoma_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/irinotecan_carboplatin" />
+    <CheckBox
+        android:id="@+id/checkBox_cell_carcinoma_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gemcitabine_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_cell_carcinoma_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vinorelbine_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_cell_carcinoma_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pemetrexed_platinum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preferred_TKI" />
+    <CheckBox
+        android:id="@+id/checkBox_preferred_TKI_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/erlotininb" />
+    <CheckBox
+        android:id="@+id/checkBox_preferred_TKI_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/afatinib" />
+    <CheckBox
+        android:id="@+id/checkBox_preferred_TKI_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gefitinib" />
+    <CheckBox
+        android:id="@+id/checkBox_preferred_TKI_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_are_same_in_terms_of_efficacy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EGFR_testing" />
+    <CheckBox
+        android:id="@+id/checkBox_EGFR_testing_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/egfr_testing_from_biopsy_material" />
+    <CheckBox
+        android:id="@+id/checkBox_EGFR_testing_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/egfr_testing_from_liquid_biopsy" />
+    <CheckBox
+        android:id="@+id/checkBox_EGFR_testing_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/others_please_specify" />
+    <EditText
+        android:id="@+id/EGFR_testing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TKI_blindly" />
+    <CheckBox
+        android:id="@+id/checkBox_TKI_blindly_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yes" />
+    <CheckBox
+        android:id="@+id/checkBox_TKI_blindly_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no" />
+    <CheckBox
+        android:id="@+id/checkBox_TKI_blindly_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sometimes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/metastatic_NSCLC" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_NSCLC_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paclitaxel_carboplatin" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_NSCLC_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cisplatin_etoposide" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_NSCLC_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/irinotecan_carboplatin" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_NSCLC_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vinorelbine_platinum" />
+    <CheckBox
+        android:id="@+id/checkBox_metastatic_NSCLC_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pemetrexed_platinum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ECOG_2" />
+    <CheckBox
+        android:id="@+id/checkBox_ECOG_2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yes" />
+    <CheckBox
+        android:id="@+id/checkBox_ECOG_2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/immunotherapy" />
+    <CheckBox
+        android:id="@+id/checkBox_immunotherapy_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yes" />
+    <CheckBox
+        android:id="@+id/checkBox_immunotherapy_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/treatment_algorithm" />
+    <CheckBox
+        android:id="@+id/checkBox_treatment_algorithm_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1st_line" />
+    <CheckBox
+        android:id="@+id/checkBox_treatment_algorithm_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_2nd_line" />
+    <CheckBox
+        android:id="@+id/checkBox_treatment_algorithm_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_3rd_line" />
+    <CheckBox
+        android:id="@+id/checkBox_treatment_algorithm_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adjuvant" />
+    <CheckBox
+        android:id="@+id/checkBox_treatment_algorithm_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/maintenance" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lung_cancer_management" />
+    <EditText
+        android:id="@+id/Lung_cancer_management"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:onClick="Update"
+        android:background="@color/dark_green"/>
+
+</LinearLayout>
+</ScrollView>
