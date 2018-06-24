@@ -16,11 +16,13 @@
         android:layout_height="wrap_content"
         android:text="@string/Nationality" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_nationality_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bangladesh" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_nationality_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,31 +40,37 @@
         android:layout_height="wrap_content"
         android:text="@string/profession" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_profession_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/medical_oncologist" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_profession_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/radiation_oncologist" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_profession_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/clinical_oncologist" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_profession_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/general_physician" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_profession_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/post_graduate_student" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_profession_6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -80,21 +88,25 @@
         android:layout_height="wrap_content"
         android:text="@string/clinical_practice" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_clinical_practice_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_5_years" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_clinical_practice_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_5_10_years" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_clinical_practice_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_10_20_years" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_clinical_practice_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -105,21 +117,25 @@
         android:layout_height="wrap_content"
         android:text="@string/work_practice" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_work_practice_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_public" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_work_practice_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_private" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_work_practice_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/both" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_work_practice_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -137,16 +153,19 @@
         android:layout_height="wrap_content"
         android:text="@string/percentage" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_persentage_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_20" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_persentage_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_20_30" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_persentage_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -157,36 +176,43 @@
         android:layout_height="wrap_content"
         android:text="@string/lung_cancer_patient" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_cancer_patient_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_lessthan10" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_cancer_patient_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_10to20" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_cancer_patient_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/greaterthan20" />
 
     <TextView
+        android:layout_marginLeft="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/existing_lung_cancer_patient" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_existing_lung_cancer_patient_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_50" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_existing_lung_cancer_patient_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_50to100" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_existing_lung_cancer_patient_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -197,26 +223,31 @@
         android:layout_height="wrap_content"
         android:text="@string/common_histology" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_common_histology_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/small_cell_lung_cancer" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_common_histology_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/non_small_cell_lung_cancer_nos" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_common_histology_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/adenocarcinoma" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_common_histology_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/squamous_cell_carcinoma" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_common_histology_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -227,16 +258,19 @@
         android:layout_height="wrap_content"
         android:text="@string/metastatic_lung_cancer" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_lung_cancer_patient_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_30percentage" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_lung_cancer_patient_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_30_50" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_lung_cancer_patient_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -247,36 +281,43 @@
         android:layout_height="wrap_content"
         android:text="@string/diagnostic_modality" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_diagnostic_modality_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/fnac" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_diagnostic_modality_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/fnab" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_diagnostic_modality_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/endo_bronchial_biopsy" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_diagnostic_modality_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/endo_bronchial_lavage" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_diagnostic_modality_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pleural_fluid_cytology" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_diagnostic_modality_6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/core_biopsy" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_diagnostic_modality_7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -294,31 +335,37 @@
         android:layout_height="wrap_content"
         android:text="@string/lung_mass" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_mass_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/not_needed_fnac_is_sufficient" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_mass_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lack_of_expertise" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_mass_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cost_issue" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_mass_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/patient_s_choice" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_mass_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lack_of_knowledge_about_it_s_importance" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_lung_mass_6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -336,11 +383,13 @@
         android:layout_height="wrap_content"
         android:text="@string/staging_work_up" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_staging_work_up_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/yes" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_staging_work_up_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -351,26 +400,31 @@
         android:layout_height="wrap_content"
         android:text="@string/metastatic_squamous" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_squamous_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/paclitaxel_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_squamous_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/docetaxel_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_squamous_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gemcitabine_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_squamous_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/vinorelbine_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_squamous_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -381,26 +435,31 @@
         android:layout_height="wrap_content"
         android:text="@string/metastatic_adeno" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_adeno_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/paclitaxel_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_adeno_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/docetaxel_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_adeno_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gemcitabine_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_adeno_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/vinorelbine_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_adeno_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -411,26 +470,31 @@
         android:layout_height="wrap_content"
         android:text="@string/cell_carcinoma" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_cell_carcinoma_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cisplatin_etoposide" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_cell_carcinoma_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/irinotecan_carboplatin" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_cell_carcinoma_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gemcitabine_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_cell_carcinoma_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/vinorelbine_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_cell_carcinoma_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -441,21 +505,25 @@
         android:layout_height="wrap_content"
         android:text="@string/preferred_TKI" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_preferred_TKI_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/erlotininb" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_preferred_TKI_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/afatinib" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_preferred_TKI_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gefitinib" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_preferred_TKI_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -466,11 +534,13 @@
         android:layout_height="wrap_content"
         android:text="@string/EGFR_testing" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_EGFR_testing_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/egfr_testing_from_biopsy_material" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_EGFR_testing_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -493,16 +563,19 @@
         android:layout_height="wrap_content"
         android:text="@string/TKI_blindly" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_TKI_blindly_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/yes" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_TKI_blindly_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/no" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_TKI_blindly_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -513,26 +586,31 @@
         android:layout_height="wrap_content"
         android:text="@string/metastatic_NSCLC" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_NSCLC_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/paclitaxel_carboplatin" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_NSCLC_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cisplatin_etoposide" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_NSCLC_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/irinotecan_carboplatin" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_NSCLC_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/vinorelbine_platinum" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_metastatic_NSCLC_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -543,11 +621,13 @@
         android:layout_height="wrap_content"
         android:text="@string/ECOG_2" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_ECOG_2_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/yes" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_ECOG_2_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -558,11 +638,13 @@
         android:layout_height="wrap_content"
         android:text="@string/immunotherapy" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_immunotherapy_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/yes" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_immunotherapy_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -573,26 +655,31 @@
         android:layout_height="wrap_content"
         android:text="@string/treatment_algorithm" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_treatment_algorithm_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_1st_line" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_treatment_algorithm_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_2nd_line" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_treatment_algorithm_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_3rd_line" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_treatment_algorithm_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/adjuvant" />
     <CheckBox
+        android:layout_marginLeft="20dp"
         android:id="@+id/checkBox_treatment_algorithm_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
